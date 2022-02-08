@@ -511,6 +511,12 @@
 
                         <form class="contact__form" action="https://formsubmit.co/dusi.hejl@gmail.com" method="POST">
 
+                            <!--=============== honeypot ===============-->
+                            <input type="text" name="_honey" style="display: none;">
+                            <!--=============== disable captcha ===============-->
+                            <input type="hidden" name="_captcha" value="false">
+
+
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Names</label>
                                 <input type="text" placeholder="Write your Name" class="contact__form-input" name="name">
